@@ -12,10 +12,17 @@ cd postman-bin
 makepkg -si
 cd ..
 
-sudo pacman -Syu discord --noconfirm
+sudo pacman -S discord --noconfirm
 
 sudo pacman -S go --noconfirm
 
+sudo pacman -S firefox --noconfirm
+
+sudo pacman -S vlc --noconfirm
+
+sudo pacman -S nodejs npm --noconfirm
+
+npm install -g expo-cli
 
 echo "Instalação concluída."
 
